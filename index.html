@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>techer activity</title>
+    </head>
+    <body>
+        <h1>open console</h1>
+    </body>
+    <script>
+        console.log("hi I am a console screen"); 
+        var first_name="vasist";
+    console.log(first_name);
+    var last_name="painoori";
+    console.log(last_name);
+
+ first_name.concat(last_name);
+ var full_name=first_name.concat(last_name);
+ console.log(full_name);
+ var length=full_name.length;
+ console.log(length);
+
+ var name_1="I am Vasist painoori";
+ console.log(name_1);
+ name_1.replace("Vasist","Vasu");
+ var replace_name=name_1.replace("Vasist","Vasu");
+ console.log(replace_name);
+
+ var name_2="I am Vasu painoori";
+ console.log(name_2);
+ name_2.replace("painoori","unihuri");
+ var name_replace_2=name_2.replace("painoori","unihuri");
+ console.log(name_replace_2);
+
+ var small_letters="this is small case";
+ var upper_case=small_letters.toUpperCase();
+ console.log(upper_case);
+
+ var me_1="THIS IS ME";
+ var me_2=me_1.toLowerCase();
+ console.log(me_2);
+
+ var a=Math.sqrt(9);
+ console.log(a);
+
+ var d=Math.max(9,5);
+ console.log(d);
+  
+ var f=Math.min(3,1);
+ console.log(f);
+
+
+ var j=Math.pow(4,2)
+ console.log(j)
+
+
+ var fruits=["Mango","Apple","Banana","Dragon fruit","Orange"];
+ console.log(fruits);
+
+
+function max(){
+    document.getElementById("declaration_of_arrays").textContent="hi I've solved the problem";
+}
+
+
+
+var g =["rock","walle", "mr.door","nana"];
+<h1 id="declaration_of_arrays"> </h1>
+console.log(g);
+document.getElementById("declaration_of_arrays").innerHTML=g;
+
+
+
+var first_fruit=fruits[0];
+console.log(first_fruit);
+<h4 id="access_first_element"></h4>
+document.getElementById("access_first_element").innerHTML=first_fruit;
+    </script>
+
+<h1 id="declaration_of_arrays"> </h1>
+<button onclick="max()">click me to view the p tag</button>
+</html>
